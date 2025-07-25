@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: addressables_AlarmClock_all
+  m_EditorClassIdentifier: 
+  m_GroupName: addressables_AlarmClock_all
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 46ca766b0727c9a408429a2c61e79efb
+  m_SerializeEntries: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: baeb1367bae63ab4b92082cf271f9f08, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 40abfd98f2c6f944d8af425931c17ea2, type: 2}
+    - {fileID: 11400000, guid: b5ca5d17caa548a4ebf4e70d73bb6e1d, type: 2}

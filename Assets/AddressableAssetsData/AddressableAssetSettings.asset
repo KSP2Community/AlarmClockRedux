@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 1f542e6c2e07dfe42b3f7ec8e34ba9bb
   m_currentHash:
     serializedVersion: 2
-    Hash: 97ac466f4363bc0b8c826f0e757cd276
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -46,6 +46,12 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 68fcc47d7efcd4748b66273c45d9583e, type: 2}
   - {fileID: 11400000, guid: 74453775a15955f4bad265e6966067a2, type: 2}
+  - {fileID: 11400000, guid: 683023faabeffed4e87e6c107f276f18, type: 2}
+  - {fileID: 11400000, guid: 0c18fa81fa1f8b9429a209aee5695237, type: 2}
+  - {fileID: 11400000, guid: 934faf953162992438a0f993b5cda112, type: 2}
+  - {fileID: 11400000, guid: 8a18c16ec62e958498fb22bb4b050df1, type: 2}
+  - {fileID: 11400000, guid: a2f3a99a476b0c04aa630b105f1c4509, type: 2}
+  - {fileID: 11400000, guid: b541143a51ed53f4b8fad8251824e7a9, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -63,6 +69,20 @@ MonoBehaviour:
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: fe3c7826f0e98004d8d82d8af7708fab
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: c147a55f1f944ec4f8e2879ec94f0dbf
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: e0b5ebca300fafd49a4bedcf41bd96bd
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    - m_InheritedParent: 
+      m_Id: f254aab6b8f0e2e4fb2ffd4b1bc5a134
+      m_ProfileName: AlarmClock
+      m_Values:
+      - m_Id: fefea0850a28ca54796b603c9bddc83e
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: b6215f5ad13c09f45bf6cceca44e340e
+        m_Value: Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+      - m_Id: fe3c7826f0e98004d8d82d8af7708fab
+        m_Value: '{SpaceWarpPaths.AlarmClock}/addressables/StandaloneWindows64'
       - m_Id: c147a55f1f944ec4f8e2879ec94f0dbf
         m_Value: ServerData/[BuildTarget]
       - m_Id: e0b5ebca300fafd49a4bedcf41bd96bd
@@ -87,6 +107,11 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - parts_data
+    - celestial_bodies
+    - scienceExperiment
+    - missions
+    - techNodeData
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 4676cb50dd890ac4bbbaf6b7662cd451, type: 2}
@@ -100,7 +125,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d94205660d6173d439488ecf57211c50, type: 2}
   - {fileID: 11400000, guid: fa7d5ded347f49b4bad7973e3bd017b9, type: 2}
   - {fileID: 11400000, guid: a94fca6bf38bb5047acf7c661dd3d35e, type: 2}
-  m_ActiveProfileId: ecc5f428bcb4b7c4e9eba504ffb3af33
+  m_ActiveProfileId: f254aab6b8f0e2e4fb2ffd4b1bc5a134
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}

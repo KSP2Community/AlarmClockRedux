@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6387874933362231568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470dbf1cc5834ffc97c653aa1126938c, type: 3}
+  m_Name: CopyFolderDatum
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  sourcePath: Assets\AlarmClock/Copied
+  destinationPath: Deploy/AlarmClock
+--- !u!114 &-6142933538496042125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - Deploy/AlarmClock
+  definitions:
+  - {fileID: 5897886265953266890, guid: 76580a36475f6884588019f9e2dd31ac, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Deploy to Zip File Manifest
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: -6387874933362231568}
+  - {fileID: 1019316802635474399}
+  - {fileID: 5214636085355676441}
+  - {fileID: -6142933538496042125}
+  identity: {fileID: 8263788366948941845}
+  QuickAccess: 0
+--- !u!114 &1019316802635474399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a089732392b94873b7dffb12543079c3, type: 3}
+  m_Name: TextAssets
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - Deploy/AlarmClock
+  possibleFolders:
+  - Assets\AlarmClock
+--- !u!114 &5214636085355676441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ea0a28af7349aa972a4bcb474b48d7, type: 3}
+  m_Name: AddressablesGroupDatum
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - Deploy/AlarmClock/addressables
+  mod: {fileID: 11400000, guid: c79d5eb82c9526b4083505de7a265559, type: 2}
+  targetFolder: Deploy/AlarmClock/addressables
+--- !u!114 &8263788366948941845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: AlarmClock - Deploy
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: nobody
+  Name: 
+  Description: A sample mod for KSP2
+  Version: 0.1.0
+  Dependencies: []

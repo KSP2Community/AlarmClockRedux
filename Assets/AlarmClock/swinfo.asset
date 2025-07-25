@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9065a46703c44e8fabd263388eaeb6e7, type: 3}
+  m_Name: swinfo
+  m_EditorClassIdentifier: 
+  id: AlarmClock
+  name: Alarm Clock
+  author: meckryl, cheese3660
+  description: Create alarms that will interrupt time warp, allowing you to juggle
+    transfer windows and other time sensitive moments in the middle of time warping
+    for other missions. Find it in the app bar, or use Alt-A to toggle the window.
+    Currently in a very barebones state, will be adding much more functionality.
+    Reach out to me for suggestions, or any issues you notice!
+  version: 2.0.0
+  versionCheck: https://raw.githubusercontent.com/KSP2Community/AlarmClockRedux/Assets/AlarmClock/swinfo.json
+  minKsp2Version: 0.2.3.0
+  maxKsp2Version: '*'
+  source: https://github.com/KSP2Community/AlarmClockRedux
+  allGroup: {fileID: 11400000, guid: 683023faabeffed4e87e6c107f276f18, type: 2}
+  partsGroup: {fileID: 11400000, guid: 0c18fa81fa1f8b9429a209aee5695237, type: 2}
+  missionsGroup: {fileID: 11400000, guid: 934faf953162992438a0f993b5cda112, type: 2}
+  celestialBodiesGroup: {fileID: 11400000, guid: 8a18c16ec62e958498fb22bb4b050df1, type: 2}
+  scienceExperimentGroup: {fileID: 11400000, guid: a2f3a99a476b0c04aa630b105f1c4509, type: 2}
+  techNodeDataGroup: {fileID: 11400000, guid: b541143a51ed53f4b8fad8251824e7a9, type: 2}
+  addressablesProfileId: f254aab6b8f0e2e4fb2ffd4b1bc5a134
+  dependencies:
+  - id: SpaceWarp2
+    min: 2.0.0
+    max: '*'
+  incompatibilities: []
