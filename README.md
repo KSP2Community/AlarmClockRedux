@@ -1,11 +1,19 @@
-# KSP2 Redux Mod Template
+# Alarm Clock - Plugin for KSP2
+Create alarms that will interrupt time warp, allowing you to juggle transfer windows and other time sensitive moments in the middle of time warping for other missions. Find it in the app bar, or use Alt-A to toggle the window. Currently in a very barebones state, will be adding much more functionality. Reach out to me for suggestions, or any issues you notice!
 
-## Running the game in Unity
-- Download the project files.
-- Add the project to Unity Hub, and open in Unity 2022.3.5f1.
-- when prompted to enter safe mode, click `Ignore` (exit safe mode if you clicked enter safe mode).
-- In the ThunderKit settings window, select your game's `KSP2_x64.exe` file and click `Import.`  Note: this must be a Redux-patched install of the game.
-- In the Project tab, browse to `Packages` -> `KSP 2 Unity Tools`, find `ImportKsp2ToEditor`.  Copy the file to somewhere under `Assets`, then click on that copy and click `Execute`.
-- Restart Unity.
-- Go back to the KSP2 Unity Tools package, under `Assets/Scenes` find the `boot-ksp` scene and copy it to somewhere within your `Assets` folder.
-- Open the copy of `boot-ksp` and enter play mode.
+## Installation
+Download the .zip file from (Spacedock)[https://spacedock.info/mod/3533/Alarm%20Clock]
+
+Place the .zip file into your KSP2 installation folder, and extract the contents.
+
+## Usage
+- Open the plugin window in the app bar, or toggle it with Alt + A.
+- Create alarms by selecting any two planets to find the next transfer window, or set custom times (more options coming soon!)
+- Time will automatically pause at each alarm.
+- Saving the game will automatically save all alarms as part of the save file.
+
+## Links
+- Spacedock: https://spacedock.info/mod/3533/Alarm%20Clock
+- KSP Forums: https://forum.kerbalspaceprogram.com/topic/222369-alarm-clock-mod-010/
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
