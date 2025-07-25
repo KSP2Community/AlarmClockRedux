@@ -2,7 +2,7 @@
 Create alarms that will interrupt time warp, allowing you to juggle transfer windows and other time sensitive moments in the middle of time warping for other missions. Find it in the app bar, or use Alt-A to toggle the window. Currently in a very barebones state, will be adding much more functionality. Reach out to me for suggestions, or any issues you notice!
 
 ## Installation
-Download the .zip file from (Spacedock)[https://spacedock.info/mod/3533/Alarm%20Clock]
+Download the .zip file from [Spacedock](https://spacedock.info/mod/3533/Alarm%20Clock)
 
 Place the .zip file into your KSP2 installation folder, and extract the contents.
 
