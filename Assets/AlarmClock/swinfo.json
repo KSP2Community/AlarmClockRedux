@@ -1,0 +1,25 @@
+{
+  "spec": "2.0",
+  "mod_id": "AlarmClock",
+  "name": "Alarm Clock",
+  "author": "meckryl, cheese3660",
+  "description": "Create alarms that will interrupt time warp, allowing you to juggle transfer windows and other time sensitive moments in the middle of time warping for other missions. Find it in the app bar, or use Alt-A to toggle the window. Currently in a very barebones state, will be adding much more functionality. Reach out to me for suggestions, or any issues you notice!",
+  "source": "https://github.com/KSP2Community/AlarmClockRedux",
+  "version": "2.0.0",
+  "version_check": "https://raw.githubusercontent.com/KSP2Community/AlarmClockRedux/Assets/AlarmClock/swinfo.json",
+  "ksp2_version": {
+    "min": "0.2.3.0",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "SpaceWarp2",
+      "version": {
+        "min": "2.0.0",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": [],
+  "main-assembly": "AlarmClock.dll"
+}
